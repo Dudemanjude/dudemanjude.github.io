@@ -1,0 +1,2 @@
+The code would be a for loop saying for i = 0, i < num, i++ then doing num % i, and if num % i == 0 then add i to factors. After doing this loop then loop through
+the factors and find out which ones are perfect squares by doing sqrt(factors[i]) and then checking if it is an integer.
