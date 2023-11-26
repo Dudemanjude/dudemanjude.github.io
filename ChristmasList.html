@@ -395,12 +395,12 @@ summary {
 	outline-offset: initial;
 }html button {
 	line-height: 1.2;
-	color: rgb(179, 179, 179);
-	fill: rgb(179, 179, 179);
-	background: rgb(63, 63, 63);
-	border-color: rgb(127, 127, 127);
+	color: rgba(255,255,255,0.87);
+	fill: rgba(255,255,255,0.87);
+	background: #1c1d22;
+	border-color: #8a6ca8;
 }button:disabled svg {
-	fill: rgb(255, 255, 255);
+	fill: rgba(255,255,255,0.5);
 }/*
 ** Basic element styles
 */html, body {
@@ -409,7 +409,7 @@ summary {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }html:-webkit-full-screen {
-	background-color: rgb(26, 26, 26);
+	background-color: #1c1d22;
 }body.tc-body {
 	font-size: 14px;
 	line-height: 20px;
@@ -417,9 +417,9 @@ summary {
 	
 
 
-	color: rgb(179, 179, 179);
-	background-color: rgb(26, 26, 26);
-	fill: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
+	background-color: #1c1d22;
+	fill: rgba(255,255,255,0.87);
 }/**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -435,21 +435,21 @@ summary {
 	word-break: normal;
 	word-wrap: break-word;
 	white-space: pre-wrap;
-	background-color: rgb(25, 25, 25);
-	border: 1px solid rgba(0,0,0,.2);
+	background-color: #1c1d22;
+	border: 1px solid #1c1d22;
 	padding: 0 3px 2px;
 	border-radius: 3px;
 	font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }code {
-	color: rgb(255, 94, 94);
-	background-color: rgba(0,0,0,0.03);
-	border: 1px solid rgba(0,0,0,0.08);
+	color: rgba(255,255,255,0.5);
+	background-color: #1c1d22;
+	border: 1px solid #1c1d22;
 	white-space: pre-wrap;
 	padding: 0 3px 2px;
 	border-radius: 3px;
 	font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }blockquote {
-	border-left: 5px solid rgba(240, 196, 117, 0.7);
+	border-left: 5px solid rgba(255,255,255,0.5);
 	margin-left: 25px;
 	padding-left: 10px;
 	quotes: "\201C""\201D""\2018""\2019";
@@ -459,7 +459,7 @@ summary {
 }blockquote.tc-big-quote {
 	font-family: Georgia, serif;
 	position: relative;
-	background: rgb(25, 25, 25);
+	background: #1c1d22;
 	border-left: none;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -469,7 +469,7 @@ summary {
 	content: "\2014 \2009";
 }blockquote.tc-big-quote:before {
 	font-family: Georgia, serif;
-	color: rgba(240, 196, 117, 0.7);
+	color: rgba(255,255,255,0.5);
 	content: open-quote;
 	font-size: 8em;
 	line-height: 0.1em;
@@ -480,7 +480,7 @@ summary {
 	top: 42px;
 }blockquote.tc-big-quote:after {
 	font-family: Georgia, serif;
-	color: rgba(240, 196, 117, 0.7);
+	color: rgba(255,255,255,0.5);
 	content: close-quote;
 	font-size: 8em;
 	line-height: 0.1em;
@@ -493,14 +493,14 @@ summary {
 	font-weight: bold;
 	margin-top: 6px;
 }button, textarea, input, select {
-	outline-color: rgb(255, 201, 102);
+	outline-color: #249df7;
 }textarea,
 input[type=text],
 input[type=search],
 input[type=""],
 input:not([type]) {
-	color: rgb(179, 179, 179);
-	background: rgb(38, 38, 38);
+	color: rgba(255,255,255,0.87);
+	background: #2A2B30;
 }input[type="checkbox"] {
 	vertical-align: middle;
 }input[type="search"]::-webkit-search-decoration,
@@ -509,7 +509,7 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
 	-webkit-appearance:none;
 }.tc-muted {
-	color: rgb(255, 255, 255);
+	color: rgba(255,255,255,0.5);
 }svg.tc-image-button {
 	padding: 0px 1px 1px 0px;
 }.tc-icon-wrapper > svg {
@@ -520,13 +520,13 @@ input[type="search"]::-webkit-search-results-decoration {
 	padding: 3px 5px;
 	font-size: 0.8em;
 	line-height: 1.2;
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 	vertical-align: middle;
-	background-color: rgb(38, 38, 38);
-	border: solid 1px rgb(255, 255, 255);
-	border-bottom-color: rgb(255, 255, 255);
+	background-color: #2A2B30;
+	border: solid 1px rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
 	border-radius: 3px;
-	box-shadow: inset 0 -1px 0 rgb(255, 255, 255);
+	box-shadow: inset 0 -1px 0 rgba(255,255,255,0.5);
 }::selection {
 	background-color: Highlight;
 	color: HighlightText;
@@ -541,7 +541,7 @@ pre > code {
 	background-color: inherit;
 	color: inherit;
 }table {
-	border: 1px solid rgba(255,255,255,.3);
+	border: 1px solid #1c1d22;
 	width: auto;
 	max-width: 100%;
 	caption-side: bottom;
@@ -552,13 +552,13 @@ pre > code {
 	border-spacing: 0;
 }table th, table td {
 	padding: 0 7px 0 7px;
-	border-top: 1px solid rgba(255,255,255,.3);
-	border-left: 1px solid rgba(255,255,255,.3);
+	border-top: 1px solid #1c1d22;
+	border-left: 1px solid #1c1d22;
 }table thead tr td, table th {
-	background-color: rgba(0,0,0,.1);
+	background-color: rgba(0, 0, 0, 0.2);
 	font-weight: bold;
 }table tfoot tr td {
-	background-color: rgba(0,0,0,.4);
+	background-color: rgba(0, 0, 0, 0.1);
 }.tc-csv-table {
 	white-space: nowrap;
 }.tc-tiddler-frame img,
@@ -577,12 +577,12 @@ pre > code {
 a.tc-tiddlylink {
 	text-decoration: none;
 	font-weight: 500;
-	color: rgb(204, 204, 255);
+	color: #249df7;
 	-webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
 }.tc-sidebar-lists a.tc-tiddlylink {
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.5);
 }.tc-sidebar-lists a.tc-tiddlylink:hover {
-	color: rgb(115, 115, 115);
+	color: inherit;
 }button.tc-tiddlylink:hover,
 a.tc-tiddlylink:hover {
 	text-decoration: underline;
@@ -595,16 +595,16 @@ a.tc-tiddlylink:hover {
 	font-style: italic;
 }a.tc-tiddlylink-external {
 	text-decoration: underline;
-	color: rgb(179, 179, 255);
+	color: #f0b000;
 	background-color: inherit;
 }a.tc-tiddlylink-external:visited {
-	color: rgb(153, 153, 255);
+	color: #8a6ca8;
 	background-color: inherit;
 }a.tc-tiddlylink-external:hover {
 	color: inherit;
 	background-color: inherit;
 }.tc-drop-down a.tc-tiddlylink:hover {
-	color: rgb(38, 38, 38);
+	color: #2A2B30;
 }/*
 ** Drag and drop styles
 */.tc-tiddler-dragger {
@@ -619,15 +619,15 @@ a.tc-tiddlylink:hover {
 	font-size: 16.9px;
 	font-weight: bold;
 	line-height: 20px;
-	color: rgb(38, 38, 38);
+	color: #2A2B30;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
 	white-space: nowrap;
 	vertical-align: baseline;
-	background-color: rgb(179, 179, 179);
+	background-color: rgba(255,255,255,0.87);
 	border-radius: 20px;
 }.tc-tiddler-dragger-cover {
 	position: absolute;
-	background-color: rgb(26, 26, 26);
+	background-color: #1c1d22;
 }.tc-page-container > .tc-dropzone {
 	min-height: 100vh;
 }.tc-dropzone {
@@ -639,14 +639,14 @@ a.tc-tiddlylink:hover {
 	top: 0;
 	left: 0;
 	right: 0;
-	background: #9eebcf;
+	background: #249df7;
 	text-align: center;
 	content: "Drop here (or use the 'Escape' key to cancel)";
 }.tc-droppable > .tc-droppable-placeholder {
 	display: none;
 }.tc-droppable.tc-dragover > .tc-droppable-placeholder {
 	display: block;
-	border: 2px dashed #9eebcf;
+	border: 2px dashed #249df7;
 }.tc-draggable {
 	cursor: move;
 }.tc-sidebar-tab-open .tc-droppable-placeholder, .tc-tagged-draggable-list .tc-droppable-placeholder,
@@ -657,7 +657,7 @@ a.tc-tiddlylink:hover {
 	position: relative;
 }.tc-sidebar-tab-open .tc-btn-invisible.tc-btn-mini svg {
 	font-size: 0.7em;
-	fill: rgb(255, 255, 255);
+	fill: rgba(255,255,255,0.5);
 }/*
 ** Plugin reload warning
 */.tc-plugin-reload-warning {
@@ -667,7 +667,7 @@ a.tc-tiddlylink:hover {
 	top: 0;
 	left: 0;
 	right: 0;
-	background: rgb(255, 255, 102);
+	background: #644a7d;
 	text-align: center;
 }/*
 ** Buttons
@@ -679,47 +679,47 @@ a.tc-tiddlylink:hover {
 	background: none;
 	border: none;
 	cursor: pointer;
-	color: rgb(179, 179, 179);
-	fill: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
+	fill: rgba(255,255,255,0.87);
 }button:disabled.tc-btn-invisible  {
 	cursor: default; 
-	color: rgb(255, 255, 255);
+	color: rgba(255,255,255,0.5);
 }.tc-btn-boxed {
 	font-size: 0.6em;
 	padding: 0.2em;
 	margin: 1px;
 	background: none;
-	border: 1px solid rgb(128, 128, 128);
+	border: 1px solid #6b6b6b;
 	border-radius: 0.25em;
 }html body.tc-body .tc-btn-boxed svg {
 	font-size: 1.6666em;
 }.tc-btn-boxed:hover {
-	background: rgb(255, 255, 255);
-	color: rgb(38, 38, 38);
+	background: rgba(255,255,255,0.5);
+	color: #2A2B30;
 }html body.tc-body .tc-btn-boxed:hover svg {
-	fill: rgb(38, 38, 38);
+	fill: #2A2B30;
 }.tc-btn-rounded {
 	font-size: 0.5em;
 	line-height: 2;
 	padding: 0em 0.3em 0.2em 0.4em;
 	margin: 1px;
-	border: 1px solid rgb(255, 255, 255);
-	background: rgb(255, 255, 255);
-	color: rgb(38, 38, 38);
+	border: 1px solid rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.5);
+	color: #2A2B30;
 	border-radius: 2em;
 }html body.tc-body .tc-btn-rounded svg {
 	font-size: 1.6666em;
-	fill: rgb(38, 38, 38);
+	fill: #2A2B30;
 }.tc-btn-rounded:hover {
-	border: 1px solid rgb(255, 255, 255);
-	background: rgb(38, 38, 38);
-	color: rgb(255, 255, 255);
+	border: 1px solid rgba(255,255,255,0.5);
+	background: #2A2B30;
+	color: rgba(255,255,255,0.5);
 }html body.tc-body .tc-btn-rounded:hover svg {
-	fill: rgb(255, 255, 255);
+	fill: rgba(255,255,255,0.5);
 }.tc-btn-icon svg {
 	height: 1em;
 	width: 1em;
-	fill: rgb(255, 255, 255);
+	fill: rgba(255,255,255,0.5);
 }.tc-btn-text {
 	margin-left: 7px;
 }/* used for documentation "fake" buttons */
@@ -734,9 +734,9 @@ a.tc-tiddlylink:hover {
 	display: inline-block;
 	padding: 8px;
 	margin: 4px 8px 4px 8px;
-	background: #19a974;
-	color: rgb(38, 38, 38);
-	fill: rgb(38, 38, 38);
+	background: #644a7d;
+	color: #2A2B30;
+	fill: #2A2B30;
 	border: none;
 	border-radius: 2px;
 	font-size: 1.2em;
@@ -747,20 +747,20 @@ a.tc-tiddlylink:hover {
 	height: 2em;
 	width: 2em;
 	vertical-align: middle;
-	fill: rgb(38, 38, 38);
+	fill: #2A2B30;
 }.tc-primary-btn {
-	background: rgb(255, 201, 102);
+	background: #249df7;
 }.tc-sidebar-lists input {
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 }.tc-sidebar-lists button {
-	color: rgb(179, 179, 179);
-	fill: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
+	fill: rgba(255,255,255,0.87);
 }.tc-sidebar-lists button.tc-btn-mini {
-	color: rgba(0, 0, 0, 0.5);
+	color: rgba(255,255,255,0.87);
 }.tc-sidebar-lists button.tc-btn-mini:hover {
-	color: rgb(141, 141, 141);
+	color: inherit;
 }.tc-sidebar-lists button small {
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 }button svg.tc-image-button, button .tc-image-button img {
 	height: 1em;
 	width: 1em;
@@ -774,16 +774,16 @@ a.tc-tiddlylink:hover {
 	width: calc(100% + 2px);
 	margin-left: -43px;
 	text-align: center;
-	border-top: 2px solid rgb(43, 43, 43);
+	border-top: 2px solid #2A2B30;
 	margin-top: 4px;
 }.tc-unfold-banner:hover {
-	background: rgb(43, 43, 43);
-	border-top: 2px solid rgb(25, 25, 25);
+	background: #2A2B30;
+	border-top: 2px solid #1c1d22;
 }.tc-unfold-banner svg, .tc-fold-banner svg {
 	height: 0.75em;
-	fill: rgb(128, 128, 128);
+	fill: #6b6b6b;
 }.tc-unfold-banner:hover svg, .tc-fold-banner:hover svg {
-	fill: rgba(255, 255, 255, 0.8);
+	fill: inherit;
 }.tc-fold-banner {
 	position: absolute;
 	padding: 0;
@@ -796,7 +796,7 @@ a.tc-tiddlylink:hover {
 	top: 6px;
 	bottom: 6px;
 }.tc-fold-banner:hover {
-	background: rgb(43, 43, 43);
+	background: #2A2B30;
 }@media (max-width: 999px) {.tc-unfold-banner {
 		position: static;
 		width: calc(100% + 59px);
@@ -822,17 +822,17 @@ a.tc-tiddlylink:hover {
 	white-space: nowrap;
 	vertical-align: baseline;
 }.tc-block-tags-dropdown > .tc-btn-invisible:hover {
-	background-color: rgb(255, 201, 102);
+	background-color: #249df7;
 }button.tc-tag-label, span.tc-tag-label {
 	display: inline-block;
 	padding: 0.16em 0.7em;
 	font-size: 0.9em;
 	font-weight: normal;
 	line-height: 1.2em;
-	color: rgb(25, 25, 25);
+	color: rgba(255,255,255,0.87);
 	white-space: nowrap;
 	vertical-align: baseline;
-	background-color: rgb(255, 201, 102);
+	background-color: #8a6ca8;
 	border-radius: 1em;
 }.tc-sidebar-scrollable .tc-tag-label {
 	text-shadow: none;
@@ -842,9 +842,9 @@ a.tc-tiddlylink:hover {
 	margin-left: 0;
 	border: 0;
 	height: 1px;
-	background: rgb(255, 201, 102);
+	background: #249df7;
 }button.tc-untagged-label {
-	background-color: rgb(255, 255, 255);
+	background-color: #3a3a3a;
 }.tc-tag-label svg, .tc-tag-label img {
 	height: 1em;
 	width: 1em;
@@ -862,8 +862,8 @@ a.tc-tiddlylink:hover {
 	outline: none;
 }.tc-tag-button-selected,
 .tc-list-item-selected a.tc-tiddlylink, a.tc-list-item-selected {
-	background-color: rgb(255, 201, 102);
-	color: rgb(38, 38, 38);
+	background-color: #249df7;
+	color: #2A2B30;
 }/*
 ** Page layout
 */.tc-topbar {
@@ -880,21 +880,21 @@ a.tc-tiddlylink:hover {
 	}}.tc-topbar button {
 	padding: 8px;
 }.tc-topbar svg {
-	fill: rgb(255, 255, 255);
+	fill: rgba(255,255,255,0.5);
 }.tc-topbar button:hover svg {
-	fill: rgb(179, 179, 179);
+	fill: rgba(255,255,255,0.87);
 }@media (max-width: 999px) {.tc-show-sidebar-btn svg.tc-image-chevron-left, .tc-hide-sidebar-btn svg.tc-image-chevron-right {
 		transform: rotate(-90deg);
 	}}.tc-sidebar-header {
-	color: rgb(141, 141, 141);
-	fill: rgb(141, 141, 141);
+	color: rgba(255,255,255,0.87);
+	fill: rgba(255,255,255,0.87);
 }.tc-sidebar-header .tc-title a.tc-tiddlylink-resolves {
 	font-weight: normal;
 }.tc-sidebar-header .tc-sidebar-lists p {
 	margin-top: 3px;
 	margin-bottom: 3px;
 }.tc-sidebar-header .tc-missing-tiddler-label {
-	color: rgb(141, 141, 141);
+	color: rgba(255,255,255,0.87);
 }.tc-advanced-search input {
 	width: 60%;
 }.tc-search a svg {
@@ -913,9 +913,9 @@ a.tc-tiddlylink:hover {
 }.tc-page-controls img {
 	width: 1em;
 }.tc-page-controls svg {
-	fill: rgb(153, 153, 153);
+	fill: rgba(255,255,255,0.5);
 }.tc-page-controls button:hover svg, .tc-page-controls a:hover svg {
-	fill: rgba(255, 255, 255, 0.8);
+	fill: inherit;
 }.tc-sidebar-lists .tc-menu-list-item {
 	white-space: nowrap;
 }.tc-menu-list-count {
@@ -977,21 +977,21 @@ a.tc-tiddlylink:hover {
 */.tc-tiddler-frame {
 	position: relative;
 	margin-bottom: 28px;
-	background-color: rgb(38, 38, 38);
-	border: 1px solid rgba(240, 196, 117, 0.7);
+	background-color: #2A2B30;
+	border: 1px solid #2A2B30;
 }
 .tc-tiddler-info {
 	overflow: hidden;
 	padding: 14px 42px 14px 42px;
-	background-color: rgb(43, 43, 43);
-	border-top: 1px solid rgb(25, 25, 25);
-	border-bottom: 1px solid rgb(25, 25, 25);
+	background-color: #2A2B30;
+	border-top: 1px solid #1c1d22;
+	border-bottom: 1px solid #1c1d22;
 }.tc-tiddler-info p {
 	margin-top: 3px;
 	margin-bottom: 3px;
 }.tc-tiddler-info .tc-tab-buttons button.tc-tab-selected {
-	background-color: rgb(43, 43, 43);
-	border-bottom: 1px solid rgb(43, 43, 43);
+	background-color: #2A2B30;
+	border-bottom: 1px solid #2A2B30;
 }@media (max-width: 999px) {.tc-tiddler-info {
 		padding: 14px 14px 14px 14px;
 	}}.tc-view-field-table {
@@ -1023,15 +1023,15 @@ a.tc-tiddlylink:hover {
 	font-weight: normal;
 	font-size: 2.35em;
 	line-height: 1.35em;
-	color: rgb(255, 192, 76);
+	color: #249df7;
 	margin: 0;
 }.tc-site-title {
-	color: rgb(255, 201, 102);
+	color: white;
 }.tc-tiddler-title-icon {
 	vertical-align: middle;
 	margin-right: .1em;
 }.tc-system-title-prefix {
-	color: rgb(255, 255, 255);
+	color: rgba(255,255,255,0.5);
 }.tc-titlebar h2 {
 	font-size: 1em;
 	display: inline;
@@ -1039,7 +1039,7 @@ a.tc-tiddlylink:hover {
 	height: 1em;
 }.tc-subtitle {
 	font-size: 0.9em;
-	color: rgb(255, 255, 255);
+	color: rgba(255,255,255,0.5);
 	font-weight: normal;
 }.tc-subtitle .tc-tiddlylink {
 	margin-right: .3em;
@@ -1059,7 +1059,7 @@ a.tc-tiddlylink:hover {
 	margin-left:5px;
 }.tc-tiddler-controls button svg, .tc-tiddler-controls button img,
 .tc-search button svg, .tc-search a svg {
-	fill: rgb(128, 128, 128);
+	fill: #6b6b6b;
 }.tc-tiddler-controls button svg, .tc-tiddler-controls button img {
 	height: 0.75em;
 }.tc-search button svg, .tc-search a svg {
@@ -1068,19 +1068,19 @@ a.tc-tiddlylink:hover {
 	margin: 0 0.25em;
 }.tc-tiddler-controls button.tc-selected svg,
 .tc-page-controls button.tc-selected svg  {
-	fill: rgba(255, 255, 255, 0.9);
+	fill: rgba(255,255,255,0.87);
 }.tc-tiddler-controls button.tc-btn-invisible:hover svg,
 .tc-search button:hover svg, .tc-search a:hover svg {
-	fill: rgba(255, 255, 255, 0.8);
+	fill: inherit;
 }@media print {
 	.tc-tiddler-controls {
 		display: none;
 	}
 }.tc-tiddler-help { /* Help prompts within tiddler template */
-	color: rgb(255, 255, 255);
+	color: rgba(255,255,255,0.5);
 	margin-top: 14px;
 }.tc-tiddler-help a.tc-tiddlylink {
-	color: rgba(240, 196, 117, 0.7);
+	color: rgba(255,255,255,0.2);
 }.tc-tiddler-frame .tc-edit-texteditor {
 	width: 100%;
 	margin: 4px 0 4px 0;
@@ -1088,24 +1088,24 @@ a.tc-tiddlylink:hover {
 .tc-tiddler-frame textarea.tc-edit-texteditor,
 .tc-tiddler-frame iframe.tc-edit-texteditor {
 	padding: 3px 3px 3px 3px;
-	border: 1px solid rgb(63, 63, 63);
+	border: 1px solid rgba(255,255,255,0.1);
 	line-height: 1.3em;
 	-webkit-appearance: none;
 	font-family: ;
 }.tc-tiddler-frame input.tc-edit-texteditor,
 .tc-tiddler-frame textarea.tc-edit-texteditor {
-	background-color: rgb(33, 33, 33);
+	background-color: #2A2B30;
 }.tc-tiddler-frame iframe.tc-edit-texteditor {
-	background-color: rgb(38, 38, 38);
+	background-color: #2A2B30;
 }.tc-tiddler-frame .tc-binary-warning {
 	width: 100%;
 	height: 5em;
 	text-align: center;
 	padding: 3em 3em 6em 3em;
-	background: rgb(255, 255, 102);
-	border: 1px solid rgb(232, 232, 125);
+	background: #644a7d;
+	border: 1px solid #644a7d;
 }canvas.tc-edit-bitmapeditor  {
-	border: 6px solid rgb(25, 25, 25);
+	border: 6px solid #2A2B30;
 	cursor: crosshair;
 	-moz-user-select: none;
 	-webkit-user-select: none;
@@ -1125,7 +1125,7 @@ a.tc-tiddlylink:hover {
 	overflow: hidden; /* https://github.com/Jermolene/TiddlyWiki5/issues/282 */
 }html body.tc-body.tc-single-tiddler-window {
 	margin: 1em;
-	background: rgb(38, 38, 38);
+	background: #2A2B30;
 }.tc-single-tiddler-window img,
 .tc-single-tiddler-window svg,
 .tc-single-tiddler-window canvas,
@@ -1138,9 +1138,9 @@ a.tc-tiddlylink:hover {
 	margin-top: 8px;
 }.tc-editor-toolbar button {
 	vertical-align: middle;
-	background-color: rgb(128, 128, 128);
-	color: rgba(255, 255, 255, 0.9);
-	fill: rgba(255, 255, 255, 0.9);
+	background-color: #6b6b6b;
+	color: rgba(255,255,255,0.87);
+	fill: rgba(255,255,255,0.87);
 	border-radius: 4px;
 	padding: 3px;
 	margin: 2px 0 2px 4px;
@@ -1151,14 +1151,14 @@ a.tc-tiddlylink:hover {
 }.tc-editor-toolbar button.tc-text-editor-toolbar-item-start-group {
 	margin-left: 11px;
 }.tc-editor-toolbar button.tc-selected {
-	background-color: rgb(255, 201, 102);
+	background-color: #249df7;
 }.tc-editor-toolbar button svg {
 	width: 1.6em;
 	height: 1.2em;
 }.tc-editor-toolbar button:hover {
-	background-color: rgba(255, 255, 255, 0.9);
-	fill: rgb(38, 38, 38);
-	color: rgb(38, 38, 38);
+	background-color: rgba(255,255,255,0.87);
+	fill: #2A2B30;
+	color: #2A2B30;
 }.tc-editor-toolbar .tc-text-editor-toolbar-more {
 	white-space: normal;
 }.tc-editor-toolbar .tc-text-editor-toolbar-more button {
@@ -1214,7 +1214,7 @@ a.tc-tiddlylink:hover {
 }/*
 ** Tiddler edit mode
 */.tc-tiddler-edit-frame em.tc-edit {
-	color: rgb(255, 255, 255);
+	color: rgba(255,255,255,0.5);
 	font-style: normal;
 }.tc-edit-type-dropdown a.tc-tiddlylink-missing {
 	font-style: normal;
@@ -1227,7 +1227,7 @@ a.tc-tiddlylink:hover {
 	}.tc-type-selector-dropdown-wrapper input.tc-edit-typeeditor {
 		min-width: 32ch;
 	}.tc-edit-tags {
-	border: 1px solid rgb(63, 63, 63);
+	border: 1px solid rgba(255,255,255,0.1);
 	padding: 4px 8px 4px 8px;
 }.tc-edit-add-tag {
 	display: inline-block;
@@ -1246,7 +1246,7 @@ a.tc-tiddlylink:hover {
 }.tc-tiddler-preview-preview {
 	float: right;
 	width: 49%;
-	border: 1px solid rgb(63, 63, 63);
+	border: 1px solid rgba(255,255,255,0.1);
 	margin: 4px 0 3px 3px;
 	padding: 3px 3px 3px 3px;
 }.tc-tiddler-frame .tc-tiddler-preview .tc-edit-texteditor {
@@ -1262,9 +1262,9 @@ a.tc-tiddlylink:hover {
 	border: none;
 	padding: 4px;
 }.tc-edit-fields > tbody > .tc-edit-field:nth-child(odd) {
-	background-color: rgb(28, 28, 28);
+	background-color: #1c1d22;
 }.tc-edit-fields > tbody > .tc-edit-field:nth-child(even) {
-	background-color: rgb(33, 33, 33);
+	background-color: #3a3a3a;
 }.tc-edit-field-name {
 	text-align: right;
 }.tc-edit-field-value input {
@@ -1273,7 +1273,7 @@ a.tc-tiddlylink:hover {
 }.tc-edit-field-remove svg {
 	height: 1em;
 	width: 1em;
-	fill: rgb(255, 255, 255);
+	fill: rgba(255,255,255,0.5);
 	vertical-align: middle;
 }.tc-edit-field-add-name-wrapper input.tc-edit-texteditor {
 	width: auto;
@@ -1296,19 +1296,19 @@ a.tc-tiddlylink:hover {
 	left:0;
 	right:0;
 	height: 100%;
-	background: #9eebcf;
+	background: #249df7;
 	content: "Drop here (or use the 'Escape' key to cancel)";
 	pointer-events: none;
 	position: absolute;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: rgb(38, 38, 38);
-	border: 4px dashed rgba(0,0,0,.5);
+	background-color: #2A2B30;
+	border: 4px dashed #2A2B30;
 	font-weight: bold;
 	font-size: 150%;
 	opacity: 0.8;
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 }.tc-editor-importpopup {
 	width: 100%;
 	height: 100%;
@@ -1317,11 +1317,11 @@ a.tc-tiddlylink:hover {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background: rgb(25, 25, 25);
-	box-shadow: 2px 2px 10px rgb(179, 179, 179);
+	background: #1c1d22;
+	box-shadow: 2px 2px 10px rgba(255,255,255,0.87);
 	padding: 10px;
 	width: 96%;
-	border: 1px solid rgb(128, 128, 128);
+	border: 1px solid #6b6b6b;
 	text-align:center;
 }.tc-editor-import img {
 	max-height: 500px;
@@ -1342,13 +1342,13 @@ a.tc-tiddlylink:hover {
 }.tc-btn-dropdown svg, .tc-btn-dropdown img {
 	height: 1em;
 	width: 1em;
-	fill: rgb(255, 255, 255);
+	fill: rgba(255,255,255,0.5);
 }.tc-drop-down-wrapper {
 	position: relative;
 }.tc-drop-down {
 	min-width: 380px;
-	border: 1px solid rgb(255, 255, 255);
-	background-color: rgb(38, 38, 38);
+	border: 1px solid #2A2B30;
+	background-color: #2A2B30;
 	padding: 7px 0 7px 0;
 	margin: 4px 0 0 0;
 	white-space: nowrap;
@@ -1357,11 +1357,11 @@ a.tc-tiddlylink:hover {
 }.tc-drop-down .tc-drop-down {
 	margin-left: 14px;
 }.tc-drop-down button svg, .tc-drop-down a svg  {
-	fill: rgb(179, 179, 179);
+	fill: rgba(255,255,255,0.87);
 }.tc-drop-down button:disabled svg {
-	fill: rgb(255, 255, 255);
+	fill: rgba(255,255,255,0.5);
 }.tc-drop-down button.tc-btn-invisible:hover svg {
-	fill: rgb(38, 38, 38);
+	fill: #2A2B30;
 }.tc-drop-down .tc-drop-down-info {
 	padding-left: 14px;
 }.tc-drop-down p {
@@ -1376,7 +1376,7 @@ a.tc-tiddlylink:hover {
 	padding: 0 14px 0 14px;
 	width: 100%;
 	text-align: left;
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 	line-height: 1.4;
 }.tc-drop-down .tc-tab-set .tc-tab-buttons button {
 	display: inline-block;
@@ -1394,16 +1394,16 @@ a.tc-tiddlylink:hover {
 }.tc-drop-down .tc-file-input-wrapper {
 	width: 100%;
 }.tc-drop-down .tc-file-input-wrapper button {
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 }.tc-drop-down a:hover, .tc-drop-down button:hover, .tc-drop-down .tc-file-input-wrapper:hover button {
-	color: rgb(38, 38, 38);
-	background-color: rgb(204, 204, 255);
+	color: #2A2B30;
+	background-color: #249df7;
 	text-decoration: none;
 }.tc-drop-down .tc-tab-buttons button {
-	background-color: rgba(0,0,0,.1);
+	background-color: #2A2B30;
 }.tc-drop-down .tc-tab-buttons button.tc-tab-selected {
-	background-color: rgba(255,255,255,1);
-	border-bottom: 1px solid rgba(255,255,255,1);
+	background-color: #2A2B30;
+	border-bottom: 1px solid #2A2B30;
 }.tc-drop-down-bullet {
 	display: inline-block;
 	width: 0.5em;
@@ -1414,8 +1414,8 @@ a.tc-tiddlylink:hover {
 }.tc-block-dropdown {
 	position: absolute;
 	min-width: 220px;
-	border: 1px solid rgb(255, 255, 255);
-	background-color: rgb(38, 38, 38);
+	border: 1px solid #2A2B30;
+	background-color: #2A2B30;
 	padding: 7px 0;
 	margin: 4px 0 0 0;
 	white-space: nowrap;
@@ -1435,10 +1435,10 @@ a.tc-tiddlylink:hover {
 }.tc-drop-down .tc-dropdown-item,
 .tc-block-dropdown .tc-dropdown-item {
 	padding: 4px 14px 4px 7px;
-	color: rgb(255, 255, 255);
+	color: rgba(255,255,255,0.5);
 }.tc-block-dropdown a.tc-tiddlylink:hover {
-	color: rgb(38, 38, 38);
-	background-color: rgb(204, 204, 255);
+	color: #2A2B30;
+	background-color: #249df7;
 	text-decoration: none;
 }.tc-search-results {
 	padding: 0 7px 0 7px;
@@ -1451,7 +1451,7 @@ a.tc-tiddlylink:hover {
 	text-align: center;
 	position: relative;
 }.tc-image-chooser a {
-	border: 1px solid rgb(255, 255, 255);
+	border: 1px solid rgba(255,255,255,0.5);
 	padding: 2px;
 	margin: 2px;
 	width: 4em;
@@ -1463,9 +1463,9 @@ a.tc-tiddlylink:hover {
 	vertical-align: middle;
 }.tc-image-chooser a:hover,
 .tc-colour-chooser a:hover {
-	background: rgb(255, 201, 102);
+	background: #249df7;
 	padding: 0px;
-	border: 3px solid rgb(255, 201, 102);
+	border: 3px solid #249df7;
 }.tc-image-chooser a svg,
 .tc-image-chooser a img {
 	display: inline-block;
@@ -1497,11 +1497,11 @@ a.tc-tiddlylink:hover {
 	bottom: 0;
 	left: 0;
 	z-index: 1000;
-	background-color: rgb(179, 179, 179);
+	background-color: #1c1d22;
 }.tc-modal {
 	z-index: 1100;
-	background-color: rgb(38, 38, 38);
-	border: 1px solid rgba(0,0,0,.5);
+	background-color: #2A2B30;
+	border: 1px solid #2A2B30;
 }@media (max-width: 55em) {
 	.tc-modal {
 		position: fixed;
@@ -1526,7 +1526,7 @@ a.tc-tiddlylink:hover {
 	}
 }.tc-modal-header {
 	padding: 9px 15px;
-	border-bottom: 1px solid rgba(0,0,0,.2);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
 }.tc-modal-header h3 {
 	margin: 0;
 	line-height: 30px;
@@ -1539,8 +1539,8 @@ a.tc-tiddlylink:hover {
 	padding: 14px 15px 15px;
 	margin-bottom: 0;
 	text-align: right;
-	background-color: #f4f4f4;
-	border-top: 1px solid rgba(0,0,0,.1);
+	background-color: #2A2B30;
+	border-top: 1px solid #2A2B30;
 }.tc-modal-prevent-scroll {
 	overflow: hidden;
 }/*
@@ -1560,8 +1560,8 @@ a.tc-tiddlylink:hover {
 	z-index: 1300;
 	max-width: 280px;
 	padding: 0 14px 0 14px;
-	background-color: rgb(25, 25, 25);
-	border: 1px solid rgb(255, 201, 102);
+	background-color: #644a7d;
+	border: 1px solid #644a7d;
 }/*
 ** Tabs
 */.tc-tab-set.tc-vertical {
@@ -1583,22 +1583,22 @@ a.tc-tiddlylink:hover {
 	-webkit-flex: 0 0 auto;
 	flex: 0 0 auto;
 }.tc-tab-buttons button.tc-tab-selected {
-	color: rgb(179, 179, 179);
-	background-color: rgb(38, 38, 38);
-	border-left: 1px solid rgb(255, 201, 102);
-	border-top: 1px solid rgb(255, 201, 102);
-	border-right: 1px solid rgb(255, 201, 102);
+	color: #249df7;
+	background-color: #2A2B30;
+	border-left: 1px solid #249df7;
+	border-top: 1px solid #249df7;
+	border-right: 1px solid #249df7;
 }.tc-tab-buttons button {
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.5);
 	padding: 3px 5px 3px 5px;
 	margin-right: 0.3em;
 	font-weight: normal;
 	border: none;
 	background: inherit;
-	background-color: rgba(0,0,0,0.125);
-	border-left: 1px solid rgb(255, 201, 102);
-	border-top: 1px solid rgb(255, 201, 102);
-	border-right: 1px solid rgb(255, 201, 102);
+	background-color: transparent;
+	border-left: 1px solid transparent;
+	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
 	border-top-left-radius: 2px;
 	border-top-right-radius: 2px;
 	border-bottom-left-radius: 0;
@@ -1609,19 +1609,19 @@ a.tc-tiddlylink:hover {
 	margin-top: 3px;
 	margin-right: 0;
 	text-align: right;
-	background-color: rgba(0,0,0,0.125);
-	border-left: 1px solid rgb(255, 201, 102);
-	border-bottom: 1px solid rgb(255, 201, 102);
+	background-color: transparent;
+	border-left: 1px solid transparent;
+	border-bottom: 1px solid transparent;
 	border-right: none;
 	border-top-left-radius: 2px;
 	border-bottom-left-radius: 2px;
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
 }.tc-tab-buttons.tc-vertical button.tc-tab-selected {
-	background-color: rgb(38, 38, 38);
-	border-right: 1px solid rgb(38, 38, 38);
+	background-color: #2A2B30;
+	border-right: 1px solid #2A2B30;
 }.tc-tab-divider {
-	border-top: 1px solid rgb(255, 201, 102);
+	border-top: 1px solid #249df7;
 }.tc-tab-divider.tc-vertical  {
 	display: none;
 }.tc-tab-content {
@@ -1631,37 +1631,37 @@ a.tc-tiddlylink:hover {
 	vertical-align: top;
 	padding-top: 0;
 	padding-left: 14px;
-	border-left: 1px solid rgb(255, 201, 102);
+	border-left: 1px solid transparent;
 	-webkit-flex: 1 0 70%;
 	flex: 1 0 70%;
 	overflow: auto;
 }.tc-sidebar-lists .tc-tab-buttons {
 	margin-bottom: -1px;
 }.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
-	background-color: rgb(26, 26, 26);
-	color: rgb(179, 179, 179);
-	border-left: 1px solid rgb(127, 127, 127);
-	border-top: 1px solid rgb(127, 127, 127);
-	border-right: 1px solid rgb(127, 127, 127);
+	background-color: #1c1d22;
+	color: #249df7;
+	border-left: 1px solid #249df7;
+	border-top: 1px solid #249df7;
+	border-right: 1px solid #249df7;
 }.tc-sidebar-lists .tc-tab-buttons button {
-	background-color: rgba(141, 141, 141, 0.2);
-	color: rgb(179, 179, 179);
-	border-left: 1px solid rgb(127, 127, 127);
-	border-top: 1px solid rgb(127, 127, 127);
-	border-right: 1px solid rgb(127, 127, 127);
+	background-color: transparent;
+	color: rgba(255,255,255,0.5);
+	border-left: 1px solid transparent;
+	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
 }.tc-sidebar-lists .tc-tab-divider {
-	border-top: 1px solid rgb(127, 127, 127);
+	border-top: 1px solid #249df7;
 }.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button {
 	display: block;
 	width: 100%;
-	background-color: rgba(141, 141, 141, 0.2);
+	background-color: transparent;
 	border-top: none;
 	border-left: none;
 	border-bottom: none;
 	border-right: 1px solid #ccc;
 	margin-bottom: inherit;
 }.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button.tc-tab-selected {
-	background-color: rgb(26, 26, 26);
+	background-color: #1c1d22;
 	border: none;
 }/*
 ** Manager
@@ -1673,36 +1673,36 @@ a.tc-tiddlylink:hover {
 	margin: 0.5em 0;
 }.tc-manager-list {
 	width: 100%;
-	border-top: 1px solid rgb(255, 255, 255);
-	border-left: 1px solid rgb(255, 255, 255);
-	border-right: 1px solid rgb(255, 255, 255);
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-left: 1px solid rgba(255,255,255,0.5);
+	border-right: 1px solid rgba(255,255,255,0.5);
 }.tc-manager-list-item {}.tc-manager-list-item-heading {
 	display: block;
 	width: 100%;
 	text-align: left;
-	border-bottom: 1px solid rgb(255, 255, 255);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
 	padding: 3px;
 }.tc-manager-list-item-heading-selected {
 	font-weight: bold;
-	color: rgb(38, 38, 38);
-	fill: rgb(38, 38, 38);
-	background-color: rgb(179, 179, 179);
+	color: #2A2B30;
+	fill: #2A2B30;
+	background-color: rgba(255,255,255,0.87);
 }.tc-manager-list-item-heading:hover {
-	background: rgb(255, 201, 102);
-	color: rgb(38, 38, 38);
+	background: #249df7;
+	color: #2A2B30;
 }.tc-manager-list-item-content {
 	display: flex;
 }.tc-manager-list-item-content-sidebar {
 	flex: 1 0;
-	background: rgb(33, 33, 33);
-	border-right: 0.5em solid rgb(255, 255, 255);
-	border-bottom: 0.5em solid rgb(255, 255, 255);
+	background: #2A2B30;
+	border-right: 0.5em solid rgba(255,255,255,0.5);
+	border-bottom: 0.5em solid rgba(255,255,255,0.5);
 	white-space: nowrap;
 }.tc-manager-list-item-content-item-heading {
 	display: block;
 	width: 100%;
 	text-align: left;
-	background: rgb(255, 255, 255);
+	background: rgba(255,255,255,0.5);
 	text-transform: uppercase;
 	font-size: 0.6em;
 	font-weight: bold;
@@ -1715,9 +1715,9 @@ a.tc-tiddlylink:hover {
 	background: inherit;
 }.tc-manager-list-item-content-tiddler {
 	flex: 3 1;
-	border-left: 0.5em solid rgb(255, 255, 255);
-	border-right: 0.5em solid rgb(255, 255, 255);
-	border-bottom: 0.5em solid rgb(255, 255, 255);
+	border-left: 0.5em solid rgba(255,255,255,0.5);
+	border-right: 0.5em solid rgba(255,255,255,0.5);
+	border-bottom: 0.5em solid rgba(255,255,255,0.5);
 }.tc-manager-list-item-content-item-body > table {
 	border: none;
 	padding: 0;
@@ -1741,7 +1741,7 @@ a.tc-tiddlylink:hover {
 }.tc-import-table th:last-of-type {
 	width: 30%;
 }.tc-import-table .tc-row-disabled {
-	background: rgba(240, 196, 117, 0.7)10;
+	background: rgba(255,255,255,0.2)10;
 	opacity: 0.8;
 }.tc-import-table .tc-row-warning {
 	background: #ffc9c950;
@@ -1758,24 +1758,24 @@ a.tc-tiddlylink:hover {
 	position: relative;
 	margin: 14px;
 	padding: 7px;
-	border: 1px solid rgb(232, 232, 125);
-	background-color: rgb(255, 255, 102);
+	border: 1px solid #644a7d;
+	background-color: #644a7d;
 }.tc-alert-toolbar {
 	position: absolute;
 	top: 7px;
 	right: 7px;
 	line-height: 0;
 }.tc-alert-toolbar svg {
-	fill: rgb(224, 82, 82);
+	fill: rgba(255,255,255,0.5);
 }.tc-alert-subtitle {
-	color: rgb(224, 82, 82);
+	color: rgba(255,255,255,0.5);
 	font-weight: bold;
 	font-size: 0.8em;
 	margin-bottom: 0.5em;
 }.tc-alert-body > p {
 	margin: 0;
 }.tc-alert-highlight {
-	color: rgb(255, 51, 51);
+	color: #249df7;
 }@media (min-width: 1000px) {.tc-static-alert {
 		position: relative;
 	}.tc-static-alert-inner {
@@ -1783,7 +1783,7 @@ a.tc-tiddlylink:hover {
 		z-index: 100;
 	}}.tc-static-alert-inner {
 	padding: 0 2px 2px 42px;
-	color: rgba(0,0,0,.3);
+	color: rgba(255,255,255,0.87);
 }/*
 ** Floating drafts list
 */.tc-drafts-list {
@@ -1797,16 +1797,16 @@ a.tc-tiddlylink:hover {
 	padding: 4px 4px;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
-	border: 1px solid rgb(38, 38, 38);
+	border: 1px solid #2A2B30;
 	border-bottom-none;
-	background: rgb(255, 94, 94);
-	color: rgb(38, 38, 38);
-	fill: rgb(38, 38, 38);
+	background: #249df7;
+	color: #2A2B30;
+	fill: #2A2B30;
 }.tc-drafts-list a:hover {
 	text-decoration: none;
-	background: rgb(179, 179, 179);
-	color: rgb(38, 38, 38);
-	fill: rgb(38, 38, 38);
+	background: rgba(255,255,255,0.87);
+	color: #2A2B30;
+	fill: #2A2B30;
 }.tc-drafts-list a svg {
 	width: 1em;
 	height: 1em;
@@ -1820,22 +1820,22 @@ a.tc-tiddlylink:hover {
 }.tc-plugin-info {
 	display: flex;
 	text-shadow: none;
-	border: 1px solid rgb(255, 255, 255);
-	fill: rgb(255, 255, 255);
-	background-color: rgb(38, 38, 38);
+	border: 1px solid rgba(255,255,255,0.5);
+	fill: rgba(255,255,255,0.5);
+	background-color: #2A2B30;
 	margin: 0.5em 0 0.5em 0;
 	padding: 4px;
 	align-items: center;
 }.tc-sidebar-lists a.tc-tiddlylink.tc-plugin-info {
-	color: rgb(204, 204, 255);
+	color: #249df7;
 }.tc-plugin-info-sub-plugins .tc-plugin-info {
 	margin: 0.5em;
-	background: rgb(38, 38, 38);
+	background: #2A2B30;
 }.tc-plugin-info-sub-plugin-indicator {
 	margin: -16px 1em 0 2em;
 }.tc-plugin-info-sub-plugin-indicator button {
-	color: rgb(38, 38, 38);
-	background: rgb(179, 179, 179);
+	color: #2A2B30;
+	background: rgba(255,255,255,0.87);
 	border-radius: 8px;
 	padding: 2px 7px;
 	font-size: 0.75em;
@@ -1850,11 +1850,11 @@ a.tc-tiddlylink:hover {
 	background: repeating-linear-gradient(45deg, #aa0, #aa0 10px, #888 10px, #888 20px);
 }a.tc-tiddlylink.tc-plugin-info:hover {
 	text-decoration: none;
-	background-color: rgb(255, 201, 102);
-	color: rgb(38, 38, 38);
-	fill: rgb(179, 179, 179);
+	background-color: #249df7;
+	color: #2A2B30;
+	fill: rgba(255,255,255,0.87);
 }a.tc-tiddlylink.tc-plugin-info:hover > .tc-plugin-info-chunk > svg {
-	fill: rgb(38, 38, 38);
+	fill: #2A2B30;
 }.tc-plugin-info-chunk {
 	margin: 2px;
 }.tc-plugin-info-chunk.tc-plugin-info-toggle {
@@ -1892,21 +1892,21 @@ a.tc-tiddlylink:hover {
 	width: 2em;
 	height: 2em;
 }.tc-plugin-info-dropdown {
-	border: 1px solid rgb(255, 255, 255);
-	background: rgb(38, 38, 38);
+	border: 1px solid rgba(255,255,255,0.5);
+	background: #2A2B30;
 	margin-top: -8px;
 }.tc-plugin-info-dropdown-message {
-	background: rgb(25, 25, 25);
+	background: #644a7d;
 	padding: 0.5em 1em 0.5em 1em;
 	font-weight: bold;
 	font-size: 0.8em;
 }.tc-plugin-info-dropdown-body {
 	padding: 1em 1em 0 1em;
-	background: rgb(38, 38, 38);
+	background: #2A2B30;
 }.tc-plugin-info-sub-plugins {
 	padding: 0.5em;
 	margin: 0 1em 1em 1em;
-	background: rgb(25, 25, 25);
+	background: #644a7d;
 }.tc-install-plugin {
 	font-weight: bold;
 	background: green;
@@ -1927,12 +1927,12 @@ a.tc-tiddlylink:hover {
 }/*
 ** Message boxes
 */.tc-message-box {
-	border: 1px solid #96ccff;
-	background: rgb(25, 25, 25);
+	border: 1px solid #644a7d;
+	background: #644a7d;
 	padding: 0px 21px 0px 21px;
 	font-size: 12px;
 	line-height: 18px;
-	color: rgb(255, 201, 102);
+	color: rgba(255,255,255,0.87);
 }.tc-message-box svg {
 	width: 1em;
 	height: 1em;
@@ -1940,7 +1940,7 @@ a.tc-tiddlylink:hover {
 }/*
 ** Pictures
 */.tc-bordered-image {
-	border: 1px solid rgb(255, 255, 255);
+	border: 1px solid rgba(255,255,255,0.5);
 	padding: 5px;
 	margin: 5px;
 }/*
@@ -1950,18 +1950,18 @@ a.tc-tiddlylink:hover {
 }/*
 ** Chooser
 */.tc-chooser {
-	border-right: 1px solid rgba(0,0,0,.1);
-	border-left: 1px solid rgba(0,0,0,.1);
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
 }.tc-chooser-item {
-	border-bottom: 1px solid rgba(0,0,0,.1);
-	border-top: 1px solid rgba(0,0,0,.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 2px 4px 2px 14px;
 }.tc-drop-down .tc-chooser-item {
 	padding: 2px;
 }.tc-chosen,
 .tc-chooser-item:hover {
-	background-color: rgba(0,0,0,.1);
-	border-color: rgba(0,0,0,.4);
+	background-color: rgba(0, 0, 0, 0.2);
+	border-color: rgba(0, 0, 0, 0.1);
 }.tc-chosen .tc-tiddlylink {
 	cursor:default;
 }.tc-chooser-item .tc-tiddlylink {
@@ -1972,7 +1972,7 @@ a.tc-tiddlylink:hover {
 	text-decoration: none;
 }.tc-drop-down .tc-chosen .tc-tiddlylink,
 .tc-drop-down .tc-chooser-item .tc-tiddlylink:hover {
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 }.tc-chosen > .tc-tiddlylink:before {
 	margin-left: -10px;
 	position: relative;
@@ -2003,12 +2003,12 @@ a.tc-tiddlylink:hover {
 */.tc-sidebar-lists .tc-table-of-contents {
 	white-space: nowrap;
 }.tc-table-of-contents button {
-	color: rgb(141, 141, 141);
+	color: rgba(255,255,255,0.87);
 }.tc-table-of-contents svg {
 	width: 0.7em;
 	height: 0.7em;
 	vertical-align: middle;
-	fill: rgb(141, 141, 141);
+	fill: rgba(255,255,255,0.87);
 }.tc-table-of-contents ol {
 	list-style-type: none;
 	padding-left: 0;
@@ -2042,29 +2042,29 @@ a.tc-tiddlylink:hover {
 	max-width: 50%;
 	-webkit-flex: 0 0 auto;
 	flex: 0 0 auto;
-	background: rgba(0,0,0,0.125);
-	border-left: 1px solid rgb(255, 201, 102);
-	border-top: 1px solid rgb(255, 201, 102);
-	border-bottom: 1px solid rgb(255, 201, 102);
+	background: transparent;
+	border-left: 1px solid transparent;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
 }.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item > a,
 .tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected > a {
 	display: block;
 	padding: 0.12em 1em 0.12em 0.25em;
 }.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item > a {
-	border-top: 1px solid rgba(0,0,0,0.125);
-	border-left: 1px solid rgba(0,0,0,0.125);
-	border-bottom: 1px solid rgba(0,0,0,0.125);
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-bottom: 1px solid transparent;
 }.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item > a:hover {
 	text-decoration: none;
-	border-top: 1px solid rgb(255, 201, 102);
-	border-left: 1px solid rgb(255, 201, 102);
-	border-bottom: 1px solid rgb(255, 201, 102);
-	background: rgb(255, 201, 102);
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	background: transparent;
 }.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected > a {
-	border-top: 1px solid rgb(255, 201, 102);
-	border-left: 1px solid rgb(255, 201, 102);
-	border-bottom: 1px solid rgb(255, 201, 102);
-	background: rgb(38, 38, 38);
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	background: #2A2B30;
 	margin-right: -1px;
 }.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected > a:hover {
 	text-decoration: none;
@@ -2073,14 +2073,14 @@ a.tc-tiddlylink:hover {
 	vertical-align: top;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
-	border: 1px solid rgb(255, 201, 102);
+	border: 1px solid transparent;
 	-webkit-flex: 1 0 50%;
 	flex: 1 0 50%;
 }/*
 ** Dirty indicator
 */body.tc-dirty span.tc-dirty-indicator, body.tc-dirty span.tc-dirty-indicator svg {
-	fill: rgb(255, 94, 94);
-	color: rgb(255, 94, 94);
+	fill: #249df7;
+	color: #249df7;
 }/*
 ** File inputs
 */.tc-file-input-wrapper {
@@ -2181,19 +2181,19 @@ a.tc-tiddlylink:hover {
 ** Diffs
 */.tc-diff-equal {
 	background-color: ;
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 }.tc-diff-insert {
 	background-color: #aaefad;
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 }.tc-diff-delete {
 	background-color: #ffc9c9;
-	color: rgb(179, 179, 179);
+	color: rgba(255,255,255,0.87);
 }.tc-diff-invisible {
 	background-color: ;
-	color: rgb(255, 255, 255);
+	color: rgba(255,255,255,0.5);
 }.tc-diff-tiddlers th {
 	text-align: right;
-	background: rgb(38, 38, 38);
+	background: #2A2B30;
 	font-weight: normal;
 	font-style: italic;
 }.tc-diff-tiddlers pre {
@@ -2232,7 +2232,7 @@ a.tc-tiddlylink:hover {
 }/*
 ** Utility classes for SVG icons
 */.tc-fill-background {
-	fill: rgb(38, 38, 38);
+	fill: #2A2B30;
 }/*
 ** Flexbox utility classes
 */.tc-flex {
@@ -2378,19 +2378,32 @@ a.tc-tiddlylink:hover {
 	font-style: normal;
 }
 
+/* correcting vertical tab buttons */.tc-tab-buttons.tc-vertical {
+    margin-right: -1.5px;
+}.tc-tab-content.tc-vertical {
+    border-color: #249df7 !important;
+}.tc-tab-buttons.tc-vertical button.tc-tab-selected {
+    border-bottom: 1px solid #249df7;
+    border-left: 1px solid #249df7;
+}.tc-tab-divider { margin-top: -1.5px; width: 80%; }/* styling inputs */textarea, input, input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i], input[type=text], input[type=search], input[type=""] {
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 2px;
+    background: #2A2B30;
+}select { background: transparent; } /* for dark palettes */button { border-radius: 2px; border-width: 1px; border-style: solid; }
+
 
 </style>
 </head>
 <body class="tc-body">
 
 <section class="tc-story-river tc-static-story-river">
-<a name="MyChristmasList">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists " data-tags="" data-tiddler-title="MyChristmasList"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><span class=" tc-reveal"><button aria-expanded="false" aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">MyChristmasList</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
-<div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a>25th November 2022 at 11:45am</div></div><div class=" tc-reveal">
+<a name="MyNewerChristmasList">
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists " data-tags="" data-tiddler-title="MyNewerChristmasList"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><span class=" tc-reveal"><button aria-expanded="false" aria-label="info" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Finfo" title="Show information for this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">MyNewerChristmasList</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
+<div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a>26th November 2023 at 12:27am</div></div><div class=" tc-reveal">
 <div class="tc-tags-wrapper"></div>
 </div>
 
-<div class="tc-tiddler-body tc-reveal"><p>Tap on the price to get sent to where to buy each item. </p><ul><li>Rust in Action (programming book) (<a class="tc-tiddlylink-external" href="https://www.amazon.com/Rust-Action-TS-McNamara/dp/1617294551/" rel="noopener noreferrer" target="_blank">$60</a>)</li><li>Steam Deck Dock<ul><li>JSAUX (<a class="tc-tiddlylink-external" href="https://www.amazon.com/JSAUX-Compatible-Ethernet-Charging-Deck-HB0602/dp/B0B28PCDM2" rel="noopener noreferrer" target="_blank">$40</a> or <a class="tc-tiddlylink-external" href="https://www.amazon.com/gp/aw/d/B0B7HVZNMB/" rel="noopener noreferrer" target="_blank">$50</a>, there's only a minor difference)</li><li>Steam's official dock (<a class="tc-tiddlylink-external" href="https://store.steampowered.com/steamdeckdock" rel="noopener noreferrer" target="_blank">$90</a>, costs a lot more for only one extra port)</li></ul></li><li>Flipper Zero (it's a little hardware hacking device, also costs too much at <a class="tc-tiddlylink-external" href="https://shop.flipperzero.one/" rel="noopener noreferrer" target="_blank">$170</a>)</li><li>Universal Laptop Charger (<a class="tc-tiddlylink-external" href="https://www.amazon.com/ZOZO-Universal-Notebook-Ultrabook-Chromebook/dp/B0132ST35Y/" rel="noopener noreferrer" target="_blank">$23</a>)</li><li>Nice sweatpants (with good/zipper pockets)</li><li>Gift cards (MOD, Steam, or whatever else)</li><li>This shirt from GamersNexus's merch store in large (<a class="tc-tiddlylink-external" href="https://store.gamersnexus.net/products/hourglass-black-cotton-tshirt" rel="noopener noreferrer" target="_blank">$22</a>, if it's in stock)</li></ul></div>
+<div class="tc-tiddler-body tc-reveal"><p>Here's a list (tap on the price to go to the place to buy the item):</p><ul><li>An oscilloscope (either one or the other)<ul><li>EspoTek Labrador (all in one oscilloscope, logic analyzer, multimeter, plus some other things) (<a class="tc-tiddlylink-external" href="https://www.amazon.com/EspoTek-Labrador-Easy-Use-All/dp/B07CVB7ZJG/" rel="noopener noreferrer" target="_blank">$30</a>)</li><li>FNIRSI DSO152 Oscilloscope (portable oscilloscope) (<a class="tc-tiddlylink-external" href="https://www.amazon.com/FNIRSI-DSO152-Oscilloscope-Automotive-Bandwidth/dp/B0C6XPVLPZ/ref=sr_1_1?keywords=pocket%2Boscilloscope&amp;qid=1700985313&amp;sr=8-1&amp;th=1" rel="noopener noreferrer" target="_blank">$31 right now on sale, normally $40</a>)</li></ul></li><li>RTL-SDR Blog V4 Software Defined Radio (allows you to receive quite a few kinds of wireless communications and analyze them) (<a class="tc-tiddlylink-external" href="https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined/dp/B0CD7558GT/" rel="noopener noreferrer" target="_blank">$40</a>)</li><li>Shelly Plus Plug US (smart outlet, can monitor power consumption) (<a class="tc-tiddlylink-external" href="https://www.amazon.com/Shelly-Plug-S/dp/B096W3ZZDD/" rel="noopener noreferrer" target="_blank">$15 on sale right now, normally around $20</a>)</li><li>USB charger tester (shows how much power is coming out of a charger, useful for seeing why things charge slow or fast) (<a class="tc-tiddlylink-external" href="https://www.amazon.com/Digital-Multimeter-Resistance-Capacity-Detector/dp/B08N6XQF91/" rel="noopener noreferrer" target="_blank">$36</a>)</li><li>Solder fume extractor (<a class="tc-tiddlylink-external" href="https://www.amazon.com/Solder-Fume-Extractor-Filtration-Soldering/dp/B08HYZQ81J/" rel="noopener noreferrer" target="_blank">$27</a>)</li></ul></div>
 </div>
 </a>
 </section>
